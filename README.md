@@ -56,10 +56,15 @@
 ![step26](https://user-images.githubusercontent.com/103019032/173233121-45369d72-9955-4353-81e1-6f68fcf110cc.PNG)
 - #### In this step,go to the route table,and select vpcpublicRT for public ip,and click on edit route table.
 ![step27](https://user-images.githubusercontent.com/103019032/173233125-8147f130-6263-4aba-a55e-cd5934c80d84.PNG)
-
+- #### In this step choose 0.0.0.0/0 for all access,and choose created own internet gateway.
 ![step28](https://user-images.githubusercontent.com/103019032/173233129-f827e2cd-47d7-45c7-9933-59c8f4849152.PNG)
+- #### In this step go to the NAT Gateways option,and click on create NAT Gateways for private ip.
 ![step29](https://user-images.githubusercontent.com/103019032/173233132-e7827ca8-1d77-4e73-971a-91c8a2ea0c70.PNG)
+- #### In this step give name of NAT Gateways,choose public subnet,click on create NAT Gateways.
 ![step30](https://user-images.githubusercontent.com/103019032/173233140-c6ba5cad-2f8d-43c8-bee8-8c5743fc8b70.PNG)
+- #### In this step,successfully create NAT Gateways.
 ![step31](https://user-images.githubusercontent.com/103019032/173233142-ffd86aec-f61c-48d8-8e49-f6d9658d92be.PNG)
+- #### In this step,go to the route table,and select vpcprivateRT for private ip,and click on edit route table.
 ![step32](https://user-images.githubusercontent.com/103019032/173233147-c69806a5-bcb4-46d6-b646-30b2388bc285.PNG)
+- #### In this step choose 0.0.0.0/0 for all access,and choose created own NAT Gateway.
 ![step33](https://user-images.githubusercontent.com/103019032/173233152-bc7baca6-6ea2-4c25-b956-9cde11c1be87.PNG)
